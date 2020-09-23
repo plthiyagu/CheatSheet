@@ -1,0 +1,11 @@
+I would like to share couple of Machine Learning / Data Science facts I remind myself every-now-and-then in case it also helps someone else in their adventures:
+
+[PART 1]
+🔴 Distance between the mean and the median can not be more than 1 standard deviation (Mallows, 1991)
+🔴 [ ] is faster than list( ) in python
+🔴 "Matthews correlation coefficient" (neither AUC nor F1 score, definitely not accuracy) is the most proper evaluation metric for a classifier if the data is imbalanced (Boughorbel, 2017)
+🔴 L2 regularization is equivalent to Gaussian prior in Bayesian sense (and L1 to Laplacian)
+🔴 Backpropagation is not the only way to train a neural net. In fact, you can even train a neural net without a learning rate by betting on a coin toss (Orabona, 2017)
+🔴 It is actually possible to have a trainable pooling layer in a neural net (Zhang, 2018)
+🔴 Convolutional neural networks are biased towards "textures" compared to "shapes" (Geirhos, 2019)
+🔴 Neural network training wastes most of the time on "easy" samples. Use Importance Sampling to sample "difficult" cases more often to speed up training (Katharopoulos, 2018)
